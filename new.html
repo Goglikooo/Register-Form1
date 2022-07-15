@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+   <h1>REGISTER</h1>
+   <div class="fir">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+     
+   </div>
+      <input class="inp" type="text" placeholder="Email">
+   <input class="inp" type="password" placeholder="Password">
+   <input class="inp" type="password" placeholder="Confirm Password">
+   <div class="acc">
+        <input type="checkbox" class="chk">
+        <span>I accept <a href="#">Terms Of Use</a></span>
+   </div>
+   <button class="reg">REGISTER NOW</button>
+
+    </form>
+</body>
+<style>
+    .fir input{
+        width: 45%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        border: none;
+
+    }
+    .fir{
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        margin-top:20px;
+        text-align: center;
+        color:white;
+        font-family: sans-serif;
+    }
+    .reg{
+        display: block;
+        margin: 20px auto;
+        width: 60%;
+        height: 40px;
+        background: #00e7f9;
+        border:none;
+        color:white;
+        font-family: sans-serif;
+        font-size: 17px;
+        border-radius: 30px;
+    }
+  input.chk{
+        width: 15px;
+        height: 15px;
+        
+    }
+    
+    input::placeholder{
+        color:#979797;
+        font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    input:focus{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        outline-color: turquoise;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .acc{
+        margin-top:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inp{
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top:15px;
+        border-radius: 30px;
+        border:none;
+    }
+    form{
+        border-radius: 12px;
+        width: 400px;
+        height: 450px;
+        background: rgba(250, 242, 242, 0.2);
+        margin:120px auto;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #00e7f9;
+    }
+    span{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+    }
+body{
+    background-image: url("background.png");
+    background-size: 100% 100vh;
+/* background-image: conic-gradient(royalblue,slateblue,turquoise,cornflowerblue,royalblue); */
+/* background-size: 100% 100vh; */
+}
+</style>
+</html>
